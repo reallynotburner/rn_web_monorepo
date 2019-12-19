@@ -1,0 +1,32 @@
+{
+  "name": "rn_web_monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "android": "yarn workspace mobile android",
+    "compile": "tsc -b --incremental",
+    "ios": "yarn workspace mobile  ios",
+    "mobile": "yarn workspace mobile start",
+    "studio": "yarn workspace mobile studio",
+    "xcode": "yarn workspace mobile xcode",
+    "clean-node": "rm -rf node_modules && rm -rf packages/*/node_modules",
+    "clean-ios": "rm -rf packages/mobile/ios/Pods",
+    "clean": "yarn clean-node && yarn clean-ios",
+    "pods": "(cd ./packages/mobile/ios && pod install)",
+    "web": "yarn workspace web start"
+  },
+  "dependencies": {
+    "react-native": "0.61.3"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.11",
+    "@types/react-native": "0.60.22",
+    "concurrently": "5.0.0",
+    "typescript": "3.6.4"
+  }
+}
