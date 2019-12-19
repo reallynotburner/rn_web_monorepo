@@ -2,7 +2,7 @@
 
 Monorepos are good for lean development with limited resources.  One repo builds your app for iOS and Android, and for web.  The code is shared in the Components folder, any changes you make there will be available across all platforms.
 
-Orginal Work is [brunolemos's repo on the subject](https://github.com/brunolemos/react-native-web-monorepo/).  I need to rename a lot of the files, and will not be submitting PR's from my project, so I'm starting my own.
+Orginal Work is [brunolemos's repo on the subject](https://github.com/brunolemos/react-native-web-monorepo/).  I needed to rename a lot of the files, and will not be submitting PR's from my project, so I'm starting my own.
 
 ### How to run
 
