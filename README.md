@@ -20,10 +20,11 @@ _[XCode](https://developer.apple.com/xcode)_
   - `$ cd rn_web_monorepo`
   - `$ yarn`
 
-To see your app running in iOS and Android:
+To see your app running in iOS or Android:
   - `$ yarn mobile`
 
-Then open up rn_web_monorepo/packages/mobile/ios/rn_web_monorepo.xcodeworkspace with XCode and hit the Play button.
+For iOS open up rn_web_monorepo/packages/mobile/ios/rn_web_monorepo.xcodeworkspace with XCode and hit the Play button.<br>
+For Android up open up rn_web_monorepo/packages/mobile/android with Android Studio and hit the play button.
 
 To see you app running in Web
   - `$ yarn web`
