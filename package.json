@@ -5,7 +5,8 @@
   "workspaces": {
     "packages": [
       "packages/*"
-    ]
+    ],
+    "nohoist": ["**/react-native-video", "**/react-native-video/**"]
   },
   "scripts": {
     "android": "yarn workspace mobile android",
@@ -18,6 +19,7 @@
     "clean-ios": "rm -rf packages/mobile/ios/Pods",
     "clean": "yarn clean-node && yarn clean-ios",
     "pods": "(cd ./packages/mobile/ios && pod install)",
+    "postinstall": "yarn pods",
     "web": "yarn workspace web start"
   },
   "dependencies": {

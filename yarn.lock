@@ -1522,6 +1522,22 @@
   resolved "https://registry.npmjs.org/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/react-native-video@^3.1.5":
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-native-video/-/react-native-video-3.1.5.tgz#3617e7e96bd1cffb62e755c8b24fdd33329c843e"
+  integrity sha512-5EvRot5MEEOQroB9XSJsTaYIW1UKiAeDDJfXLNo9Q0AClRwFV4ugYYBTsKoomNUYPZycfJhrvmUbHXb4Vx8oOA==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/react-native@*":
+  version "0.60.25"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.60.25.tgz#65cb0bf5dd0631079215b63525458e4123c1c90e"
+  integrity sha512-827dIVvSTxSH5uTpsJJH7O4wpRuw0rm3yIzRL3a2yKawA0nyhgC1GPKTXHFIn2GfSdXn1Gty2dJ+k6uDZF3MWQ==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/react" "*"
+
 "@types/react-native@0.60.22":
   version "0.60.22"
   resolved "https://registry.npmjs.org/@types/react-native/-/react-native-0.60.22.tgz#ba199a441cb0612514244ffb1d0fe6f04c878575"
@@ -4007,6 +4023,11 @@ elliptic@^6.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
+
+eme-encryption-scheme-polyfill@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/eme-encryption-scheme-polyfill/-/eme-encryption-scheme-polyfill-1.0.3.tgz#6ee8d9633bfa5ab44a620ea33854f4e7aa58f3c2"
+  integrity sha512-BO98g91VkDSpFHHgWAeppz9hn1U3WRQWKh4O3mZk5JvaUvgYm0Q67t7/bC+8iEQsK+JA/K7+v2lhz1B+zXR/zA==
 
 emoji-regex@^7.0.1, emoji-regex@^7.0.2:
   version "7.0.3"
@@ -6687,6 +6708,11 @@ jsx-ast-utils@^2.0.1, jsx-ast-utils@^2.1.0, jsx-ast-utils@^2.2.1:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
+keymirror@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/keymirror/-/keymirror-0.1.1.tgz#918889ea13f8d0a42e7c557250eee713adc95c35"
+  integrity sha1-kYiJ6hP40KQufFVyUO7nE63JXDU=
+
 killable@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
@@ -9133,7 +9159,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9383,6 +9409,15 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.11.0"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
   integrity sha512-gbBVYR2p8mnriqAwWx9LbuUrShnAuSCNnuPGyc7GJrMVQtPDAh8iLpv7FRuMPFb56KkaVZIYSz1PrjI9q0QPCw==
+
+react-native-video@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-5.0.0.tgz#30b58e31f0776bfa8dc71109c25114d4e50d9209"
+  integrity sha512-nSG7Zkc0SE2Pa/sKWvMEPUc9Zlo0iVOFTac0GcXd/U5vTsm4L28leQzJ8K/s+Yc5xfCYaeb9bIWROqw2oiB9Ig==
+  dependencies:
+    keymirror "^0.1.1"
+    prop-types "^15.5.10"
+    shaka-player "^2.4.4"
 
 react-native-web@0.11.7:
   version "0.11.7"
@@ -10168,6 +10203,13 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+shaka-player@^2.4.4:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/shaka-player/-/shaka-player-2.5.7.tgz#d8cf3489fef2609957ae44a4faa46a38a5fcda20"
+  integrity sha512-Hcanwr1cnGru1E42EXml6XaoRCByutr3DRI9LRoknZKdIlsBG+F4kT5aWrMlwFw6foFNw9hoMpRsB6LWUPlrIw==
+  dependencies:
+    eme-encryption-scheme-polyfill "^1.0.2"
 
 shallow-clone@^0.1.2:
   version "0.1.2"

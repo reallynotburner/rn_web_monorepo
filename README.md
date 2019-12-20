@@ -17,7 +17,7 @@ _[XCode]()_
 
   - `$ git clone git@github.com:reallynotburner/rn_web_monorepo.git`
   - `$ cd rn_web_monorepo`
-  - `$ yarn && yarn pods`
+  - `$ yarn`
 
 To see your app running in iOS and Android:
   - `$ yarn mobile`
@@ -29,8 +29,8 @@ To see you app running in Web
 
 Your web app is served on [localhost:3000](http://localhost:3000).
 
-Also consider [Ben Awad's Tutorial on Youtube](https://www.youtube.com/watch?v=J0b11tvEkFQ&t=3s), his focus being React Hooks and Typescript.
-
 See [ReNative](https://renative.org/) which has excellent CLI's to build projects across many other platforms, again, with much code reuse.
 
-Also see [Expo CLI](https://expo.io/) which has a lot of built-in support for the mono-repo approach, including extremely valuable push notification, and on-air updating for the mobile targets.
+See [Expo CLI](https://expo.io/) which has a lot of built-in support for the mono-repo approach, including extremely valuable push notification, and on-air updating for the mobile targets.
+
+Also consider [Ben Awad's Tutorial on Youtube](https://www.youtube.com/watch?v=J0b11tvEkFQ&t=3s), his focus being React Hooks and Typescript.
