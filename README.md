@@ -8,12 +8,13 @@ Orginal Work is [brunolemos's repo on the subject](https://github.com/brunolemos
 
 _Requirements:_
 
-_[React Native](https://facebook.github.io/react-native/docs/getting-started.html#native) (last tested on react-native@0.61)_
-_[Yarn]()_
+_[React Native](https://facebook.github.io/react-native/docs/getting-started.html)_
 
-_[Android Studio]()_
+_[Yarn](https://yarnpkg.com/)_
 
-_[XCode]()_
+_[Android Studio](https://developer.android.com/studio)_
+
+_[XCode](https://developer.apple.com/xcode)_
 
   - `$ git clone git@github.com:reallynotburner/rn_web_monorepo.git`
   - `$ cd rn_web_monorepo`
