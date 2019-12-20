@@ -18,6 +18,7 @@
     "clean-ios": "rm -rf packages/mobile/ios/Pods",
     "clean": "yarn clean-node && yarn clean-ios",
     "pods": "(cd ./packages/mobile/ios && pod install)",
+    "postinstall": "yarn pods",
     "web": "yarn workspace web start"
   },
   "dependencies": {

@@ -17,7 +17,7 @@ _[XCode]()_
 
   - `$ git clone git@github.com:reallynotburner/rn_web_monorepo.git`
   - `$ cd rn_web_monorepo`
-  - `$ yarn && yarn pods`
+  - `$ yarn`
 
 To see your app running in iOS and Android:
   - `$ yarn mobile`
