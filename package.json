@@ -22,7 +22,7 @@
     "web": "yarn workspace web start"
   },
   "dependencies": {
-    "react-native": "0.61.5"
+    "react-native": "0.62.3"
   },
   "devDependencies": {
     "@types/react": "16.9.11",
